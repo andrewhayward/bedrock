@@ -7,7 +7,7 @@
   <nav id="nav-main" role="navigation">
   <ul>
       <li><b>Home</b></li>
-      <li><a href="/webmaker/videos/">Videos</a></li>
+      <li><a href="{{ url('webmaker.videos') }}">Videos</a></li>
   </ul>
   </nav>
 {% endblock %}
@@ -27,7 +27,7 @@
       <script>// <![CDATA[
       document.getElementById('promo-maker-video').id = 'page-promo-maker-video';
       // ]]></script>
-      <a href="/webmaker/videos/" class="container">
+      <a href="{{ url('webmaker.videos') }}" class="container">
         <img src="{{ media('img/webmaker/carousel/instructors.jpg') }}" alt="">
         <div>
           <h3>Meet the Webmakers: "Instructors"</h3>
